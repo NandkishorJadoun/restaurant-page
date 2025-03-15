@@ -1,3 +1,4 @@
+import "./styles.css"
 import { loadPage } from "./page-load";
 import { getMenuPage } from "./menu-page";
 import { getAboutPage } from "./about-page";

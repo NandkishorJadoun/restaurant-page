@@ -1,12 +1,13 @@
-
 export function loadPage() {
     const content = document.querySelector("#content")
     const header = document.createElement("header")
-    const text = document.createElement("div")
+    const subText = document.createElement("p")
+    const textContainer = document.createElement("div")
 
-    header.textContent = "Welcome to our Restaurant"
-    text.textContent = "This is our homepage"
+    header.textContent = "Brainrot Bites"
+    subText.textContent = "A place for Sigmas"
 
-    content.appendChild(header)
-    content.appendChild(text)
+    textContainer.appendChild(header)
+    textContainer.appendChild(subText)
+    content.appendChild(textContainer)
 }
