@@ -6,7 +6,7 @@ export function loadPage() {
     textContainer.classList.add("page-load-container")
 
     header.textContent = "Brainrot Bites"
-    subText.textContent = "A place for Sigmas"
+    subText.textContent = "A place for Doomers"
 
     textContainer.appendChild(header)
     textContainer.appendChild(subText)
